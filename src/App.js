@@ -2,6 +2,7 @@ import './App.css';
 import { useState } from 'react';
 import NavBar from './component/NavBar';
 import Header from './component/Header';
+import Footer from './component/Footer';
 import Rating from '@mui/material/Rating';
 
 function App() {
@@ -91,6 +92,7 @@ function App() {
         </div>
     </div>
   </section>
+  <Footer />
   </> 
   
 }
